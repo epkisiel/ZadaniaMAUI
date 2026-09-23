@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zad7_2.MainPage"
+             Title="Zdający nr 1">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Button
+                x:Name="CornsilkButton"
+                Text="Cornsilk"
+                Clicked="CornsilkButton_Clicked"/>
+
+            <Button
+                x:Name="PeruButton"
+                Text="Peru"
+                Clicked="PeruButton_Clicked"/>
+
+            <Label 
+                x:Name="AktualnyLabel"
+                Text=""/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

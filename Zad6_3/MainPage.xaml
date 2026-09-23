@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zad6_3.MainPage"
+             Title="Zdajacy nr 1">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <HorizontalStackLayout
+                Spacing="10">
+                <Button
+                    x:Name="PlusButton"
+                    Text="Plus"
+                    Clicked="PlusButton_Clicked"
+                    BackgroundColor="DarkSeaGreen"/>
+                <Button
+                    x:Name="MinusButton"
+                    Text="Minus"
+                    Clicked="MinusButton_Clicked"
+                    BackgroundColor="IndianRed"/>
+                <Button
+                    x:Name="ZerujButton"
+                    Text="Zeruj"
+                    Clicked="ZerujButton_Clicked"/>
+            </HorizontalStackLayout>
+
+            <Label
+                x:Name="LiczbaLabel"
+                Text="Liczba: 0"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

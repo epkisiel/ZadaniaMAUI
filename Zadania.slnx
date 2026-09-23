@@ -1,0 +1,53 @@
+<Solution>
+  <Project Path="Zad1_2/Zad1_2.csproj" Id="9cd0c937-67e5-45f6-853d-4751db46efe5">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad1_3/Zad1_3.csproj" Id="7bda84e4-80be-4125-a001-c4b2716dce7e">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad2_2/Zad2_2.csproj" Id="749ccf98-1328-4d6f-b590-0ddfe3b0c843">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad2_3/Zad2_3.csproj" Id="73821fa6-151d-4334-992c-6b90d0329927">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad3_2/Zad3_2.csproj" Id="5d289731-ce77-44d7-9b0c-957d36dc6c10">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad3_3/Zad3_3.csproj" Id="bbd7c7bc-4059-4c9e-a8dc-3c349942a5fd">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad4_2/Zad4_2.csproj" Id="3f6477d3-d68a-4255-b8cc-b6408f9678cd">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad4_3/Zad4_3.csproj" Id="f3385054-41c5-45b8-a7c0-724355223750">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad5_2/Zad5_2.csproj" Id="93a31f76-b9c2-41ce-8711-23fe2e320d16">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad5_3/Zad5_3.csproj" Id="5bb30935-4c37-483a-87a2-63390048c79f">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad6_2/Zad6_2.csproj" Id="8373fa16-8026-4a4b-b443-bbece7cbc0a5">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad6_3/Zad6_3.csproj" Id="82cb7af7-2b10-4559-88c0-7c09bd569486">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad7_2/Zad7_2.csproj" Id="d5e790a3-e507-4caf-bd67-c13112ef37fb">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad7_3/Zad7_3.csproj" Id="22b4390e-a1b6-49d0-915e-78d03afee0f2">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad8_2/Zad8_2.csproj" Id="9b962744-f319-4dd7-9667-9feb48396d5e">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad8_3/Zad8_3.csproj" Id="34cce6df-e27d-4faf-9a25-56a0abf1aac8">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad9_2/Zad9_2.csproj" Id="c8391b25-82ef-49f3-aa41-633d80febdcf">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

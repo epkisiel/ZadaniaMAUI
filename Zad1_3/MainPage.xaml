@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zad1_3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="PowitanieApp" />
+
+             <Label
+                x:Name="PowitanieLabel"
+                Text="Witamy w aplikacji" />
+
+            <Button
+                x:Name="ZmienButton"
+                Text="Zmień powitanie" 
+                Clicked="OnZmienButtonClicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="ResetButton"
+                Text="Resetuj"
+                Clicked="ResetButton_Clicked"/>
+
+            <Label
+                x:Name="LicznikLabel"
+                Text="Kliknięto 0 razy"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
