@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zad10_2.MainPage"
+             Title="Zdający nr 1">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Entry
+                x:Name="PoleTekstowe"
+                Placeholder="Napisz coś"/>
+
+            <Label
+                x:Name="Etykieta"
+                Text="{Binding Source={x:Reference PoleTekstowe},Path=Text}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

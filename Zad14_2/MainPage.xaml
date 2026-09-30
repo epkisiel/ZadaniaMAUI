@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zad14_2.MainPage"         
+             Title="Nadaj przesyłkę 1">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="20" 
+            Spacing="15">
+
+            <Label 
+                Text="Rodzaj przesylki" 
+                FontAttributes="Bold" />
+
+            <RadioButton 
+                x:Name="poleP" 
+                Content="Pocztowka" 
+                GroupName="przesylka" 
+                IsChecked="True" />
+
+            <RadioButton 
+                x:Name="poleL" 
+                Content="List" 
+                GroupName="przesylka" />
+
+            <RadioButton 
+                x:Name="poleK" 
+                Content="Paczka" 
+                GroupName="przesylka" />
+
+            <RadioButton
+                x:Name="polePolecony"
+                Content="Polecony"
+                GroupName="przesylka"/>
+
+            <VerticalStackLayout
+                Spacing="10">
+                <Label 
+                    Text="Ulica z numerem" 
+                    VerticalOptions="Center"  />
+
+                <Entry 
+                    x:Name="poleUlica"   />
+
+                <Label 
+                    Text="Kod pocztowy" 
+                    VerticalOptions="Center"   />
+
+                <Entry 
+                    x:Name="poleKod"  />
+
+                <Label 
+                    Text="Miasto" 
+                    VerticalOptions="Center"  />
+
+                <Entry 
+                    x:Name="poleMiasto" />
+
+            </VerticalStackLayout>
+
+            <Button 
+                Text="Sprawdz Cene" 
+                Clicked="SprawdzCene" 
+                HeightRequest="60"/>
+
+            <Image 
+                x:Name="obrazPrzesylki" 
+                Source="pocztowka.png" 
+                HeightRequest="150" />
+
+            <Label 
+                x:Name="etykietaCena" 
+                Text="Cena: " 
+                FontAttributes="Bold" 
+                FontSize="24" />
+
+            <Button 
+                Text="Zatwierdz" 
+                Clicked="ZatwierdzPrzesylke" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

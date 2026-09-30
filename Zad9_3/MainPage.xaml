@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zad9_3.MainPage"
+             Title="Zdający nr 1">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <Entry
+                x:Name="ProduktEntry"/>
+
+            <Button
+                x:Name="DodajButton"
+                Text="Dodaj do listy zakupów"
+                Clicked="DodajButton_Clicked"/>
+
+            <Label 
+                x:Name="LiczbaLabel"
+                Text="Liczba produktów na liście: 0"/>
+
+            <CollectionView
+                x:Name="ListaZakupow"
+                SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label
+                            Text="{Binding .}"
+                            FontSize="20"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button
+                x:Name="UsunButton"
+                Text="Usuń zaznaczone"
+                Clicked="UsunButton_Clicked"
+                BackgroundColor="IndianRed"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

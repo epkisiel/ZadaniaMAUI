@@ -1,4 +1,40 @@
 <Solution>
+  <Project Path="Zad10_2/Zad10_2.csproj" Id="128ff6af-4034-4a3a-ac59-552da68ef386">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad10_3/Zad10_3.csproj" Id="a7f02095-d015-4ac1-80af-3f243ccccd11">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad11_2/Zad11_2.csproj" Id="200618eb-a643-4cc8-9249-ec270ed4cf80">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad11_3/Zad11_3.csproj" Id="60697a08-cc76-4131-be45-61d0991e18c0">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad12_2/Zad12_2.csproj" Id="653f2206-eae0-4515-a8d5-080969490963">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad12_3/Zad12_3.csproj" Id="e1c1aeb8-f98e-4413-b2b3-80bc7e15007b">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad13_2/Zad13_2.csproj" Id="f708796c-efbd-496f-92fb-58fe22441d22">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad13_3/Zad13_3.csproj" Id="4f4d436e-ac88-40b8-a0b5-91d2f3201344">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad14_2/Zad14_2.csproj" Id="ff728549-29aa-47dd-9fea-c59f2d9819c2">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad14_3/Zad14_3.csproj" Id="87dd50d3-516c-49f1-9d33-a61d9f810b73">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad15_2/Zad15_2.csproj" Id="9bec3c65-19f9-4b46-84c4-224527e069fd">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad15_3/Zad15_3.csproj" Id="9aaf2adc-f4fc-44ee-b785-0ff0a1dc8e53">
+    <Deploy Solution="Debug|*" />
+  </Project>
   <Project Path="Zad1_2/Zad1_2.csproj" Id="9cd0c937-67e5-45f6-853d-4751db46efe5">
     <Deploy Solution="Debug|*" />
   </Project>
@@ -48,6 +84,9 @@
     <Deploy Solution="Debug|*" />
   </Project>
   <Project Path="Zad9_2/Zad9_2.csproj" Id="c8391b25-82ef-49f3-aa41-633d80febdcf">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Zad9_3/Zad9_3.csproj" Id="15147309-1e4b-44be-ae09-b52f994e3911">
     <Deploy Solution="Debug|*" />
   </Project>
 </Solution>
